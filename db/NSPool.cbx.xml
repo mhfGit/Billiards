@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="NSPool">
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|fourballROM:fourball|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_hkc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|fourteenballROM:fourteenball|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_jnc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|pooltableROM:pt|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_2qd1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|sixballROM:sixball|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_lkc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|threeballROM:threeball|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_fkc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|fiveballROM:fiveball|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_jkc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|nineballROM:nineball|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_rkc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|oneballROM:oneball|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_bkc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|twoballROM:twoball|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ltc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|cueballROM:cueball|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_35d1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|eightballROM:eightball|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_pkc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|fifteenballROM:fifteenball|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_lnc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|sevenballROM:sevenball|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_nkc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|elevenballROM:elevenball|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_dnc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|tenballROM:tenball|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_bnc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|thirteenballROM:thirteenball|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_hnc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|twelveballROM:twelveball|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_fnc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|poolcue0:mpoolcue0|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_52d1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|poolcue135:mpoolcue135|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_8ad1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|poolcue180:mpoolcue180|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_n8d1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|poolcue225:mpoolcue225|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_9ad1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|poolcue270:mpoolcue270|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_b7d1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|poolcue315:mpoolcue315|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_aad1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|poolcue45:mpoolcue45|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_87d1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|NSPool|poolcue90:mpoolcue90|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_a4d1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

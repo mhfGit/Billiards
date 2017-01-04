@@ -1,0 +1,9 @@
+Using cable "USB-Blaster [USB-0]", device 1, instance 0x00
+Pausing target processor: OK
+Reading System ID at address 0x000000A0: verified
+Initializing CPU cache (if present)
+OK
+Downloading 10000000 ( 0%)Downloading 100105FC (89%)Downloaded 66KB in 1.0s (66.0KB/s)
+Verifying 10000000 ( 0%)
+Verify failed between address 0x10000000 and 0x1000EBA3
+Leaving target processor paused

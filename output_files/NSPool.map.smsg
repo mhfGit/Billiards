@@ -1,0 +1,28 @@
+Info (10281): Verilog HDL Declaration information at nios_system_mm_interconnect_0_router_003.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_system_mm_interconnect_0_router_003.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_system_mm_interconnect_0_router_002.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_system_mm_interconnect_0_router_002.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_system_mm_interconnect_0_router_001.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_system_mm_interconnect_0_router_001.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_system_mm_interconnect_0_router.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_system_mm_interconnect_0_router.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Warning (10273): Verilog HDL warning at hpi_io_intf.sv(22): extended using "x" or "z"
+Warning (10273): Verilog HDL warning at HexDriver.sv(23): extended using "x" or "z"
+Info (10281): Verilog HDL Declaration information at NSPool.sv(64): object "Oneball" differs only in case from object "oneball" in the same scope
+Info (10281): Verilog HDL Declaration information at NSPool.sv(64): object "Twoball" differs only in case from object "twoball" in the same scope
+Info (10281): Verilog HDL Declaration information at NSPool.sv(64): object "Threeball" differs only in case from object "threeball" in the same scope
+Info (10281): Verilog HDL Declaration information at NSPool.sv(64): object "Fourball" differs only in case from object "fourball" in the same scope
+Info (10281): Verilog HDL Declaration information at NSPool.sv(64): object "Fiveball" differs only in case from object "fiveball" in the same scope
+Info (10281): Verilog HDL Declaration information at NSPool.sv(64): object "Sixball" differs only in case from object "sixball" in the same scope
+Info (10281): Verilog HDL Declaration information at NSPool.sv(64): object "Sevenball" differs only in case from object "sevenball" in the same scope
+Info (10281): Verilog HDL Declaration information at NSPool.sv(65): object "Eightball" differs only in case from object "eightball" in the same scope
+Info (10281): Verilog HDL Declaration information at NSPool.sv(65): object "Nineball" differs only in case from object "nineball" in the same scope
+Info (10281): Verilog HDL Declaration information at NSPool.sv(65): object "Tenball" differs only in case from object "tenball" in the same scope
+Info (10281): Verilog HDL Declaration information at NSPool.sv(65): object "Elevenball" differs only in case from object "elevenball" in the same scope
+Info (10281): Verilog HDL Declaration information at NSPool.sv(65): object "Twelveball" differs only in case from object "twelveball" in the same scope
+Info (10281): Verilog HDL Declaration information at NSPool.sv(65): object "Thirteenball" differs only in case from object "thirteenball" in the same scope
+Info (10281): Verilog HDL Declaration information at NSPool.sv(66): object "Fourteenball" differs only in case from object "fourteenball" in the same scope
+Info (10281): Verilog HDL Declaration information at NSPool.sv(66): object "Fifteenball" differs only in case from object "fifteenball" in the same scope
+Info (10281): Verilog HDL Declaration information at NSPool.sv(66): object "Cueball" differs only in case from object "cueball" in the same scope
+Warning (10268): Verilog HDL information at blitter.sv(101): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at spriteChooser.sv(52): always construct contains both blocking and non-blocking assignments

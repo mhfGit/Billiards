@@ -1,0 +1,6 @@
+module blitter(input clk,
+					input [8:0] xcoord,
+					input [8:0] ycoord,
+					output [18:0] addrROM,
+					output [18:0] addrFB,
+					);

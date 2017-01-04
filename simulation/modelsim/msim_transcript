@@ -1,0 +1,222 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do NSPool_run_msim_rtl_systemverilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlib nios_system
+# ** Warning: (vlib-34) Library already exists at "nios_system".
+# 
+# vmap nios_system nios_system
+# Modifying modelsim.ini
+# vlog -vlog01compat -work nios_system +incdir+C:/Users/mfuda_000/Desktop/NSPool/nios_system/synthesis/submodules {C:/Users/mfuda_000/Desktop/NSPool/nios_system/synthesis/submodules/nios_system_EightBall.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module nios_system_EightBall
+# 
+# Top level modules:
+# 	nios_system_EightBall
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/oneballROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module oneballROM
+# 
+# Top level modules:
+# 	oneballROM
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/pooltableROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module pooltableROM
+# 
+# Top level modules:
+# 	pooltableROM
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/twoballROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module twoballROM
+# 
+# Top level modules:
+# 	twoballROM
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/threeballROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module threeballROM
+# 
+# Top level modules:
+# 	threeballROM
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/fourballROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module fourballROM
+# 
+# Top level modules:
+# 	fourballROM
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/fiveballROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module fiveballROM
+# 
+# Top level modules:
+# 	fiveballROM
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/sixballROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sixballROM
+# 
+# Top level modules:
+# 	sixballROM
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/sevenballROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module sevenballROM
+# 
+# Top level modules:
+# 	sevenballROM
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/eightballROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module eightballROM
+# 
+# Top level modules:
+# 	eightballROM
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/nineballROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module nineballROM
+# 
+# Top level modules:
+# 	nineballROM
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/tenballROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module tenballROM
+# 
+# Top level modules:
+# 	tenballROM
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/elevenballROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module elevenballROM
+# 
+# Top level modules:
+# 	elevenballROM
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/twelveballROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module twelveballROM
+# 
+# Top level modules:
+# 	twelveballROM
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/thirteenballROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module thirteenballROM
+# 
+# Top level modules:
+# 	thirteenballROM
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/fourteenballROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module fourteenballROM
+# 
+# Top level modules:
+# 	fourteenballROM
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/fifteenballROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module fifteenballROM
+# 
+# Top level modules:
+# 	fifteenballROM
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/cueballROM.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module cueballROM
+# 
+# Top level modules:
+# 	cueballROM
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/poolcue0.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module poolcue0
+# 
+# Top level modules:
+# 	poolcue0
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/poolcue45.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module poolcue45
+# 
+# Top level modules:
+# 	poolcue45
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/poolcue90.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module poolcue90
+# 
+# Top level modules:
+# 	poolcue90
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/poolcue135.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module poolcue135
+# 
+# Top level modules:
+# 	poolcue135
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/poolcue180.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module poolcue180
+# 
+# Top level modules:
+# 	poolcue180
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/poolcue225.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module poolcue225
+# 
+# Top level modules:
+# 	poolcue225
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/poolcue270.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module poolcue270
+# 
+# Top level modules:
+# 	poolcue270
+# vlog -vlog01compat -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/poolcue315.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module poolcue315
+# 
+# Top level modules:
+# 	poolcue315
+# vlog -sv -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/HexDriver.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# vlog -sv -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/palette.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module palette
+# ** Warning: C:/Users/mfuda_000/Desktop/NSPool/palette.sv(41): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	palette
+# vlog -sv -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/blitter.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module blitter
+# 
+# Top level modules:
+# 	blitter
+# vlog -sv -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/vga_controller2.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module vga_controller2
+# 
+# Top level modules:
+# 	vga_controller2
+# vlog -sv -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/spriteChooser.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module spriteChooser
+# 
+# Top level modules:
+# 	spriteChooser
+# vlog -sv -work work +incdir+C:/Users/mfuda_000/Desktop/NSPool {C:/Users/mfuda_000/Desktop/NSPool/NSPool.sv}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module NSPool
+# 
+# Top level modules:
+# 	NSPool
+# 
+vsim work.vga_controller2
+# vsim work.vga_controller2 
+# Loading sv_std.std
+# Loading work.vga_controller2
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 20ns -dutycycle 50 -starttime 0ns -endtime 1000ns sim:/vga_controller2/Clk
+wave create -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 1000ns sim:/vga_controller2/Reset
+wave edit change_value -start 4716ps -end 33010ps -value 1 Edit:/vga_controller2/Reset
+add wave -position end  sim:/vga_controller2/DrawX
+add wave -position end  sim:/vga_controller2/DrawY
+run -all

@@ -1,0 +1,5 @@
+PLL_Name	nios:qsys|nios_altpll_0:altpll_0|nios_altpll_0_altpll_0442:sd1|pll7
+PLLJITTER	41
+PLLSPEmax	84
+PLLSPEmin	-53
+

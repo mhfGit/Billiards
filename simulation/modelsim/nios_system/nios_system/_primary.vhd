@@ -1,0 +1,45 @@
+library verilog;
+use verilog.vl_types.all;
+entity nios_system is
+    port(
+        clk_clk         : in     vl_logic;
+        cueball_export  : out    vl_logic_vector(19 downto 0);
+        eightball_export: out    vl_logic_vector(19 downto 0);
+        elevenball_export: out    vl_logic_vector(19 downto 0);
+        fifteenball_export: out    vl_logic_vector(19 downto 0);
+        fiveball_export : out    vl_logic_vector(19 downto 0);
+        fourball_export : out    vl_logic_vector(19 downto 0);
+        fourteenball_export: out    vl_logic_vector(19 downto 0);
+        keycode_export  : out    vl_logic_vector(15 downto 0);
+        nineball_export : out    vl_logic_vector(19 downto 0);
+        oneball_export  : out    vl_logic_vector(19 downto 0);
+        otg_hpi_address_export: out    vl_logic_vector(1 downto 0);
+        otg_hpi_cs_export: out    vl_logic;
+        otg_hpi_data_in_port: in     vl_logic_vector(15 downto 0);
+        otg_hpi_data_out_port: out    vl_logic_vector(15 downto 0);
+        otg_hpi_r_export: out    vl_logic;
+        otg_hpi_w_export: out    vl_logic;
+        poolcue_export  : out    vl_logic_vector(19 downto 0);
+        reset_reset_n   : in     vl_logic;
+        sdram_clk_clk   : out    vl_logic;
+        sdram_wire_addr : out    vl_logic_vector(12 downto 0);
+        sdram_wire_ba   : out    vl_logic_vector(1 downto 0);
+        sdram_wire_cas_n: out    vl_logic;
+        sdram_wire_cke  : out    vl_logic;
+        sdram_wire_cs_n : out    vl_logic;
+        sdram_wire_dq   : inout  vl_logic_vector(31 downto 0);
+        sdram_wire_dqm  : out    vl_logic_vector(3 downto 0);
+        sdram_wire_ras_n: out    vl_logic;
+        sdram_wire_we_n : out    vl_logic;
+        sevenball_export: out    vl_logic_vector(19 downto 0);
+        sixball_export  : out    vl_logic_vector(19 downto 0);
+        tenball_export  : out    vl_logic_vector(19 downto 0);
+        thirteenball_export: out    vl_logic_vector(19 downto 0);
+        threeball_export: out    vl_logic_vector(19 downto 0);
+        twelveball_export: out    vl_logic_vector(19 downto 0);
+        twoball_export  : out    vl_logic_vector(19 downto 0);
+        sys_reset_export: in     vl_logic;
+        hw_sig_export   : in     vl_logic;
+        stick_direction_export: out    vl_logic_vector(2 downto 0)
+    );
+end nios_system;

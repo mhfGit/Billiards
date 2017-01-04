@@ -1,0 +1,20 @@
+module spriteChooser(input [3:0] select,
+							input [3:0] oneball,
+							input [3:0] pooltable,
+							output [3:0] code
+							);
+							
+always_comb
+begin
+	if(select == 4'b0001)
+	begin
+		code <= oneball;
+	end
+	else
+	begin
+		code <= pooltable;
+	end
+end
+
+
+endmodule

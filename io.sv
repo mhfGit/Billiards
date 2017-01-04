@@ -1,0 +1,483 @@
+module io(input clk,
+			 input reset,
+			 input run,
+			 input [9:0] x_to_hw,
+			 input [9:0] y_to_hw,
+			 input [1:0] to_hw_sig,
+			 output [1:0] to_sw_sig,
+			 output [9:0] oneballx,
+			 output [9:0] onebally,
+			 output [9:0] twoballx,
+			 output [9:0] twobally,
+			 output [9:0] threeballx,
+			 output [9:0] threebally,
+			 output [9:0] fourballx,
+			 output [9:0] fourbally,
+			 output [9:0] fiveballx,
+			 output [9:0] fivebally,
+			 output [9:0] sixballx,
+			 output [9:0] sixbally,
+			 output [9:0] sevenballx,
+			 output [9:0] sevenbally,
+			 output [9:0] eightballx,
+			 output [9:0] eightbally,
+			 output [9:0] nineballx,
+			 output [9:0] ninebally,
+			 output [9:0] tenballx,
+			 output [9:0] tenbally,
+			 output [9:0] elevenballx,
+			 output [9:0] elevenbally,
+			 output [9:0] twelveballx,
+			 output [9:0] twelvebally,
+			 output [9:0] thirteenballx,
+			 output [9:0] thirteenbally,
+			 output [9:0] fourteenballx,
+			 output [9:0] fourteenbally,
+			 output [9:0] fifteenballx,
+			 output [9:0] fifteenbally,
+			 output [9:0] cueballx,
+			 output [9:0] cuebally,
+			 output [9:0] p1cuex,
+			 output [9:0] p1cuey
+			);
+
+
+enum logic [6:0] {halt, WAIT, readOneball, ackOneball, readTwoball, ackTwoball, readThreeball, ackThreeball, readFourball, ackFourball, 
+readFiveball, ackFiveball, readSixball, ackSixball, readSevenball, ackSevenball, readEightball, ackEightball, readNineball, 
+ackNineball, readTenball, ackTenball, readElevenball, ackElevenball, readTwelveball, ackTwelveball, readThirteenball, 
+ackThirteenball, readFourteenball, ackFourteenball, readFifteenball, ackFifteenball, readCueball, ackCueball, readP1cue, ackP1cue} state, next_state;
+					
+always @(posedge clk, negedge reset)
+begin
+		if(reset)
+		begin
+			state <= halt;
+		end
+		else
+		begin
+			state <= next_state;
+			case(state)
+				readOneball:
+				begin
+					oneballx <= x_to_hw;
+					onebally <= y_to_hw;
+				end
+				readTwoball:
+				begin
+					twoballx <= x_to_hw;
+					twobally <= y_to_hw;
+				end
+				readThreeball:
+				begin
+					threeballx <= x_to_hw;
+					threebally <= y_to_hw;
+				end
+				readFourball:
+				begin
+					fourballx <= x_to_hw;
+					fourbally <= y_to_hw;
+				end
+				readFiveball:
+				begin
+					fiveballx <= x_to_hw;
+					fivebally <= y_to_hw;
+				end
+				readSixball:
+				begin
+					sixballx <= x_to_hw;
+					sixbally <= y_to_hw;
+				end
+				readSevenball:
+				begin
+					sevenballx <= x_to_hw;
+					sevenbally <= y_to_hw;
+				end
+				readEightball:
+				begin
+					eightballx <= x_to_hw;
+					eightbally <= y_to_hw;
+				end
+				readNineball:
+				begin
+					nineballx <= x_to_hw;
+					ninebally <= y_to_hw;
+				end
+				readTenball:
+				begin
+					tenballx <= x_to_hw;
+					tenbally <= y_to_hw;
+				end
+				readElevenball:
+				begin
+					elevenballx <= x_to_hw;
+					elevenbally <= y_to_hw;
+				end
+				readTwelveball:
+				begin
+					twelveballx <= x_to_hw;
+					twelvebally <= y_to_hw;
+				end
+				readThirteenball:
+				begin
+					thirteenballx <= x_to_hw;
+					thirteenbally <= y_to_hw;
+				end
+				readFourteenball:
+				begin
+					fourteenballx <= x_to_hw;
+					fourteenbally <= y_to_hw;
+				end
+				readFifteenball:
+				begin
+					fifteenballx <= x_to_hw;
+					fifteenbally <= y_to_hw;
+				end
+				readCueball:
+				begin
+					cueballx <= x_to_hw;
+					cuebally <= y_to_hw;
+				end
+				readP1cue:
+				begin
+					p1cuex <= x_to_hw;
+					p1cuey <= y_to_hw;
+				end
+				endcase
+		end
+end
+
+always_comb
+    begin 
+	    next_state  = state;
+	 
+        unique case (state)
+		  halt:
+		  begin
+				if(run)
+					next_state = WAIT;
+		  end
+		  WAIT:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = readOneball;
+		  end
+		  readOneball:
+		  begin
+				if(to_hw_sig == 2'd2)
+					next_state = ackOneball;
+		  end
+		  readTwoball:
+		  begin
+				if(to_hw_sig == 2'd2)
+					next_state = ackTwoball;
+		  end
+		  readThreeball:
+		  begin
+				if(to_hw_sig == 2'd2)
+					next_state = ackThreeball;
+		  end
+		  readFourball:
+		  begin
+				if(to_hw_sig == 2'd2)
+					next_state = ackFourball;
+		  end
+		  readFiveball:
+		  begin
+				if(to_hw_sig == 2'd2)
+					next_state = ackFiveball;
+		  end
+		  readSixball:
+		  begin
+				if(to_hw_sig == 2'd2)
+					next_state = ackSixball;
+		  end
+		  readSevenball:
+		  begin
+				if(to_hw_sig == 2'd2)
+					next_state = ackSevenball;
+		  end
+		  readEightball:
+		  begin
+				if(to_hw_sig == 2'd2)
+					next_state = ackEightball;
+		  end
+		  readNineball:
+		  begin
+				if(to_hw_sig == 2'd2)
+					next_state = ackNineball;
+		  end
+		  readTenball:
+		  begin
+				if(to_hw_sig == 2'd2)
+					next_state = ackTenball;
+		  end
+		  readElevenball:
+		  begin
+				if(to_hw_sig == 2'd2)
+					next_state = ackElevenball;
+		  end
+		  readTwelveball:
+		  begin
+				if(to_hw_sig == 2'd2)
+					next_state = ackTwelveball;
+		  end
+		  readThirteenball:
+		  begin
+				if(to_hw_sig == 2'd2)
+					next_state = ackThirteenball;
+		  end
+		  readFourteenball:
+		  begin
+				if(to_hw_sig == 2'd2)
+					next_state = ackFourteenball;
+		  end
+		  readFifteenball:
+		  begin
+				if(to_hw_sig == 2'd2)
+					next_state = ackFifteenball;
+		  end
+		  readCueball:
+		  begin
+				if(to_hw_sig == 2'd2)
+					next_state = ackCueball;
+		  end
+		  readP1cue:
+		  begin
+				if(to_hw_sig == 2'd2)
+					next_state = ackP1cue;
+		  end
+		  ackOneball:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = readTwoball;
+		  end
+		  ackTwoball:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = readThreeball;
+		  end
+		  ackThreeball:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = readFourball;
+		  end
+		  ackFourball:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = readFiveball;
+		  end
+		  ackFiveball:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = readSixball;
+		  end
+		  ackSixball:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = readSevenball;
+		  end
+		  ackSevenball:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = readEightball;
+		  end
+		  ackEightball:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = readNineball;
+		  end
+		  ackNineball:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = readTenball;
+		  end
+		  ackTenball:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = readElevenball;
+		  end
+		  ackElevenball:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = readTwelveball;
+		  end
+		  ackTwelveball:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = readThirteenball;
+		  end
+		  ackThirteenball:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = readFourteenball;
+		  end
+		  ackFourteenball:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = readFifteenball;
+		  end
+		  ackFifteenball:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = readCueball;
+		  end
+		  ackCueball:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = readP1cue;
+		  end
+		  ackP1cue:
+		  begin
+				if(to_hw_sig == 2'd1)
+					next_state = WAIT;
+		  end
+		  endcase
+	 end
+					
+always_comb 
+begin
+		to_sw_sig = 2'd0;
+		unique case (state)
+			WAIT:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			readOneball:
+			begin
+				to_sw_sig = 2'd1;
+			end
+			readTwoball:
+			begin
+				to_sw_sig = 2'd1;
+			end
+			readThreeball:
+			begin
+				to_sw_sig = 2'd1;
+			end
+			readFourball:
+			begin
+				to_sw_sig = 2'd1;
+			end
+			readFiveball:
+			begin
+				to_sw_sig = 2'd1;
+			end
+			readSixball:
+			begin
+				to_sw_sig = 2'd1;
+			end
+			readSevenball:
+			begin
+				to_sw_sig = 2'd1;
+			end
+			readEightball:
+			begin
+				to_sw_sig = 2'd1;
+			end
+			readNineball:
+			begin
+				to_sw_sig = 2'd1;
+			end
+			readTenball:
+			begin
+				to_sw_sig = 2'd1;
+			end
+			readElevenball:
+			begin
+				to_sw_sig = 2'd1;
+			end
+			readTwelveball:
+			begin
+				to_sw_sig = 2'd1;
+			end
+			readThirteenball:
+			begin
+				to_sw_sig = 2'd1;
+			end
+			readFourteenball:
+			begin
+				to_sw_sig = 2'd1;
+			end
+			readFifteenball:
+			begin
+				to_sw_sig = 2'd1;
+			end
+			readCueball:
+			begin
+				to_sw_sig = 2'd1;
+			end
+			readP1cue:
+			begin
+				to_sw_sig = 2'd1;
+			end
+			ackOneball:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			ackTwoball:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			ackThreeball:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			ackFourball:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			ackFiveball:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			ackSixball:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			ackSevenball:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			ackEightball:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			ackNineball:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			ackTenball:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			ackElevenball:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			ackTwelveball:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			ackThirteenball:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			ackFourteenball:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			ackFifteenball:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			ackCueball:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			ackP1cue:
+			begin
+				to_sw_sig = 2'd0;
+			end
+			endcase
+end
+endmodule
